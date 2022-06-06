@@ -71,13 +71,137 @@ body {
   align-items: center;
   background-color: aliceblue;
   border-radius: 10px;
-  width: 255px;
-  height: 255px;
-  margin-right: 35%;
+  width: 270px;
+  height: 220px;
+  margin-right: 5%;
 }
 
 .c1Img {
+  width: 270px;
+  height: 220px;
+  border-radius: 8px;
+}
+.c1h1 {
+  font-weight: 700;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.c2h1 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.b1container {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.b1container:hover {
   width: 250px;
   height: 250px;
-  border-radius: 8px;
+}
+
+.c2boximg {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  border: 3px solid rgb(230, 225, 225);
+  transition: 0.5s;
+}
+
+.c2boximg:hover {
+  height: 250px;
+  width: 250px;
+  border: 3px solid rgb(230, 225, 225);
+  transition: 0.5s;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.container3 {
+  color: black;
+  margin-top: 70px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.c3h3 {
+  max-width: 70%;
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.c3h4 {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: 20%;
+  font-weight: bold;
+}
+
+.c4box {
+  width: 70%;
+  min-height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #3881f6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container4 {
+  padding-top: 45px;
+}
+
+.c4hs {
+  color: aliceblue;
+  font-weight: 900;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.c4btn {
+  width: 120px;
+  height: 30px;
+  background-color: #3881f6;
+  border: 1.5px solid white;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+
+.c4btn:hover {
+  cursor: pointer;
+  background-color: #4c86e4;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: large;
 }
